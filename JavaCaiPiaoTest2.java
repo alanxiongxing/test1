@@ -57,7 +57,7 @@ public class JavaCaiPiaoTest2 {
 	    //获取List size作为excel行数
 	    int rowCount = list.size();
 	    HSSFSheet sheet = workbook.createSheet(fname);
-	    //创建第一栏
+	    //创建第一栏   sfsfsdf
 	    HSSFRow headRow = sheet.createRow(0);
 	    String[] titleArray = {"城市","单位名称", "机构类别", "级别", "等次", "地址 ", "邮编","电话","实际床位数","职工总数","卫技人数"};
 	    //获取参数个数作为excel列数
